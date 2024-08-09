@@ -7,6 +7,8 @@ import { UserCard } from './UserCard'
 import { QrCode } from './QrCode'
 import { Cart } from './formSamples/Cart'
 import { UserDetails } from './formSamples/UserDetails'
+import { RegFrm } from './formSamples/RegFrm'
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -14,8 +16,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     {/* <UserCard/> */}
     {/* <QrCode/> */}
     {/* <Cart/> */}
-    
-    <UserDetails/>
+
+    {/* <UserDetails/> */}
+    <RegFrm/>
 
   </React.StrictMode>,
 )
